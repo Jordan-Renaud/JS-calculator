@@ -1,0 +1,64 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 20rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.output {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  border-radius: 0;
+  border: none;
+  margin: 0.5%;
+  height: 4rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.small-button {
+  flex: 1;
+}
+
+.medium-button {
+  width: 49%;
+}
+
+.large-button {
+  width: 74%;
+}
+
+.standard-button {
+  background-color: #d8d9db;
+}
+
+.standard-button:hover {
+  background-color: #f3f3f3;
+}
+
+.highlighted-button {
+  background-color: #df974c;
+  color: white;
+}
+
+.highlighted-button:hover {
+  background-color: #dfab74;
+}
